@@ -7,7 +7,7 @@
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: #dfdff0;
+  background-color: #FED52C;
   font-family: "General Sans", sans-serif;
 }
 
@@ -172,7 +172,7 @@ body {
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;
-  --uib-color: #5d3fd3;
+  --uib-color: #D26217;
   position: relative;
   display: inline-block;
   height: var(--uib-size);

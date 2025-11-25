@@ -141,22 +141,22 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>A</b>MING
+          C<b>O</b>MPANIONS
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              redefi<b>n</b>e
+              AI AG<b>E</b>NTS
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+              Create automated companions <br /> that plug into DeFi analytics and curated top-caller data so you can operate more consistently in crypto markets
             </p>
 
             <Button
               id="watch-trailer"
-              title="Watch trailer"
+              title="Create Companion"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
@@ -165,7 +165,7 @@ const Hero = () => {
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G<b>A</b>MING
+        C<b>O</b>MPANIONS
       </h1>
     </div>
   );

@@ -86,7 +86,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
               style={{
                 opacity: hoverOpacity,
-                background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #656fe288, #00000026)`,
+                background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #D2621788, #00000026)`, //#FED52C #FED52C88 #D26217
               }}
             />
             <TiLocationArrow className="relative z-20" />
@@ -99,16 +99,28 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 };
 
 const Features = () => (
-  <section className="bg-black pb-52">
+  <section id="features" className="bg-black pb-52">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Crypto Callers Companion
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          Auto-posts calls on Telegram and X using your custom analytics filters and high-quality caller feeds.
+        </p>
+        <br />
+        <p className="font-circular-web text-lg text-blue-50">
+          Research Companion
+        </p>
+        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+          With your own custom filters, your companion discovers tokens by keywords, volume, liquidity, market cap, and holder distribution.
+        </p>
+        <br />
+        <p className="font-circular-web text-lg text-blue-50">
+          Trading Companion
+        </p>
+        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+          Executes trades automatically via Maestro Sniper, with configurable take profit and stop loss so your strategy runs 24/7 without manual execution.
         </p>
       </div>
 
@@ -117,10 +129,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              defai icm lau<b>n</b>ch
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Create and launch tokens instantly through Defai ICM on Pump.fun, no code required and with native Telegram integration"
           isComingSoon
         />
       </BentoTilt>
@@ -131,10 +143,10 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+                ai compa<b>n</b>ions
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="Build no-code monitoring agents, track launches in real time, get alerts before the market moves, and automate strategies across multiple chains."
             isComingSoon
           />
         </BentoTilt>
@@ -144,10 +156,10 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                Spy ag<b>e</b>nts
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            description="Defai Creator is built on a vast network of spy agents that track crypto-related Telegram channels. These agents feed our system with live, refined, and actionable data that boosts the precision of your alerts."
             isComingSoon
           />
         </BentoTilt>
@@ -157,16 +169,16 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                Ma<b>e</b>stro
               </>
             }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            description="To automate buys you’ll start inside Maestro, subscribe to DEFAI signals, and only then flip the switch in Defai Creator so your agent’s calls flow into Maestro."
             isComingSoon
           />
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">
-          <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
+          <div className="flex size-full flex-col justify-between bg-yellow-400 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
               M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
             </h1>

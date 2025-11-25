@@ -30,19 +30,19 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          Welcome to Defai Creator
         </p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="Disc<b>o</b>ver AI agents <br /> largest shared c<b>o</b>nsistency"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>The Game of Games begins—your life, now an epic MMORPG</p>
+          <p>AI-powered companions for the DeFi ecosystem</p>
           <p className="text-gray-500">
-            Zentry unites every player from countless games and platforms, both
-            digital and physical, into a unified Play Economy
+            DefaiCreator empowers traders with custom smart agents that monitor blockchain networks, 
+            discover opportunities, and execute strategies automatically no coding required
           </p>
         </div>
       </div>
