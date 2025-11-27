@@ -169,7 +169,7 @@ const Hero = () => {
                   id="live-data"
                   title="LIVE DATA"
                   rightIcon={<TiSocialAtCircular />}
-                  containerClass="bg-pink-500 flex-center gap-1"
+                  containerClass="bg-pink-600 flex-center gap-1"
                 />
               </a>
             </div>
