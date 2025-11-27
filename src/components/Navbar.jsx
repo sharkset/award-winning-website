@@ -73,12 +73,14 @@ const NavBar = () => {
           <div className="flex items-center gap-7">
             <img src="/img/logo.png" alt="logo" className="w-20" />
 
-            <Button
-              id="product-button"
-              title="launchpad"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-            />
+            <a href="https://launchpad.defaicreator.bot" target="_blank" rel="noreferrer">
+              <Button
+                id="product-button"
+                title="launchpad"
+                rightIcon={<TiLocationArrow />}
+                containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              />
+            </a>
           </div>
 
           {/* Navigation Links and Audio Button */}
