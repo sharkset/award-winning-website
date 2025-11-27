@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import { TiLocationArrow } from "react-icons/ti";
+import { TiLocationArrow, TiSocialAtCircular } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
@@ -168,8 +168,8 @@ const Hero = () => {
                 <Button
                   id="live-data"
                   title="LIVE DATA"
-                  rightIcon={<TiLocationArrow />}
-                  containerClass="bg-blue-500 flex-center gap-1"
+                  rightIcon={<TiSocialAtCircular />}
+                  containerClass="bg-pink-500 flex-center gap-1"
                 />
               </a>
             </div>
