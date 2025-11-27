@@ -147,7 +147,7 @@ const Features = () => (
               </>
             }
             description="Build no-code monitoring agents, track launches in real time, get alerts before the market moves, and automate strategies across multiple chains."
-            isComingSoon
+            
           />
         </BentoTilt>
 
@@ -160,7 +160,7 @@ const Features = () => (
               </>
             }
             description="Defai Creator is built on a vast network of spy agents that track crypto-related Telegram channels. These agents feed our system with live, refined, and actionable data that boosts the precision of your alerts."
-            isComingSoon
+            
           />
         </BentoTilt>
 
@@ -173,7 +173,7 @@ const Features = () => (
               </>
             }
             description="To automate buys you’ll start inside Maestro, subscribe to DEFAI signals, and only then flip the switch in Defai Creator so your agent’s calls flow into Maestro."
-            isComingSoon
+            
           />
         </BentoTilt>
 
