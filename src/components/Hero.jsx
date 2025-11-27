@@ -154,14 +154,25 @@ const Hero = () => {
               Create automated companions <br /> that plug into DeFi analytics and curated top-caller data so you can operate more consistently in crypto markets
             </p>
 
-            <a href="https://t.me/DefaiCreatorBot" target="_blank" rel="noreferrer">
-              <Button
-                id="watch-trailer"
-                title="Create Companion"
-                leftIcon={<TiLocationArrow />}
-                containerClass="bg-yellow-500 flex-center gap-1"
-              />
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <a href="https://t.me/DefaiCreatorBot" target="_blank" rel="noreferrer">
+                <Button
+                  id="watch-trailer"
+                  title="Create Companion"
+                  leftIcon={<TiLocationArrow />}
+                  containerClass="bg-yellow-500 flex-center gap-1"
+                />
+              </a>
+
+              <a href="https://t.me/defaihalloffame/957" target="_blank" rel="noreferrer">
+                <Button
+                  id="live-data"
+                  title="LIVE DATA"
+                  rightIcon={<TiLocationArrow />}
+                  containerClass="bg-blue-500 flex-center gap-1"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

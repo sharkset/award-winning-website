@@ -10,8 +10,8 @@ const navItems = ["About", "Features", "Flywheel", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
   // Refs for audio and navigation container
   const audioElementRef = useRef(null);
