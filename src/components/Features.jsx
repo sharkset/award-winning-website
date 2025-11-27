@@ -188,13 +188,24 @@ const Features = () => (
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">
-          <video
+          {/*  <video
             src="videos/feature-5.mp4"
             loop
             muted
             autoPlay
             className="size-full object-cover object-center"
-          />
+          /> */}
+          <a href="https://docs.defaicreator.bot" target="_blank" rel="noreferrer" title="Open documentation">
+            <BentoCard
+              src="videos/feature-5.mp4"
+              title={
+                <>
+                  D<b>O</b>CS
+                </>
+              }
+              description="Comprehensive documentation and tutorials to help you get the most out of Defai Creator and build effective AI Agents."
+            />
+          </a>
         </BentoTilt>
       </div>
     </div>
