@@ -29,6 +29,15 @@ const Hero = () => {
     }
   }, [loadedVideos]);
 
+  // Timeout de segurança para remover loading em mobile
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Remove loading após 3 segundos no máximo
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   const handleMiniVdClick = () => {
     setHasClicked(true);
 
