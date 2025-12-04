@@ -109,11 +109,13 @@ const FloatingImage = () => {
               Every creator launch feeds stakers. Every trade generates buyback revenue. Every success attracts new builders. The cycle compounds value for all participants.
             </p>
 
-            <Button
-              id="realm-btn"
-              title="See our flywheel"
-              containerClass="mt-5"
-            />
+            <a href="https://flywheel.defaicreator.bot/" target="_blank" rel="noreferrer">
+              <Button
+                id="realm-btn"
+                title="See our flywheel"
+                containerClass="mt-5"
+              />
+            </a>
           </div>
         </div>
       </div>
